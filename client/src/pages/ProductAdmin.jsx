@@ -26,9 +26,9 @@ const ProductAdmin = () => {
       AxiosToastError(error)
     }    
   }
-  // useEffect(()=>{
-  //   fetchProductData()
-  // })
+  useEffect(()=>{
+    fetchProductData()
+  })
 
   // useEffect(()=>{
   //   fetchProductData()
